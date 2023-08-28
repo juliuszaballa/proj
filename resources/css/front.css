@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+#title{
+    margin-left:110px;
+    margin-top:-30px;
+    margin-bottom:40px;
+}
+/* Header styles */
+header {
+    background-color: #339933;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+#logo {
+    border-radius: 50%;
+    margin-left:-923px;
+    margin-bottom:-53px;
+    padding: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    margin-top:-190px;
+background-color: #333; /* Adding a background color for the navigation bar */
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+margin: 0 10px;
+padding: 10px 15px;
+border-radius: 5px;
+transition: background-color 0.3s ease; /* Adding a smooth transition effect for hover */
+
+/* Using flexbox to center the icon and text vertically */
+display: flex;
+align-items: center;
+}
+
+/* Styling the icons */
+nav a i {
+margin-right: 5px;
+}
+
+nav a:hover {
+background-color: #555; /* Changing background color on hover */
+}
+
+
+/* Banner styles */
+.banner {
+    background-image: url('images/Munisipyo_Bato_CS.jpg'); /* Replace 'images/farm.jpg' with your actual image URL */
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    text-align: left;
+    padding: 200px 10px;
+    color: #fff;
+}
+.MV{
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin:15px 0px;
+    box-sizing: border-box;
+    padding:50px;
+    border:solid 1px black;
+    text-align:center;
+}
+.MV h1{
+    color:white;
+    margin-top:20px;
+    margin:20px 20px;
+    font-size:30px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
